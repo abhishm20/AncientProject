@@ -1,0 +1,98 @@
+package com.tkhts.online_exam.database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ResourceBundle;
+
+import com.mysql.jdbc.*;
+
+
+
+
+
+public class JDBC {
+	static String username;
+	static String password;
+	static ResourceBundle bundle;
+	static String url;
+	static String driver;
+	static Connection connection = null;
+	static PreparedStatement query = null;
+	static ResultSet result = null;
+	
+	
+	
+	public static void getResources()
+	{
+		bundle = ResourceBundle.getBundle("jdbc");
+		url = bundle.getString("url");
+		driver = bundle.getString("driver");
+		username = bundle.getString("username");
+		password = bundle.getString("password");
+	}
+	
+	public static Connection getConnection() throws ClassNotFoundException, SQLException
+	{
+		getResources();
+		Class.forName(driver);
+		connection = DriverManager.getConnection(url,username,password);
+		if(connection!= null)
+		{
+			System.out.println("connection established....");
+			return connection;
+		}
+		return null;
+	}
+	
+	public static boolean login(String userid, String password, boolean checkEmail) throws ClassNotFoundException, SQLException
+	{
+		getConnection();
+		
+		if(checkEmail == true)
+		{
+			query = (PreparedStatement) connection.prepareStatement("select email , password from login where userid= ? and password = ?");
+			query.setString(1, userid);
+			query.setString(2, password);
+			result = query.executeQuery();
+			if(result != null /*&& !result.getString(0).equals(null) && !result.getString(1).equals(null)*/)
+			{
+				return true;
+			}
+			else 
+				return false;
+		}
+		else 
+		{
+			query = (PreparedStatement) connection.prepareStatement("select email , password from login where email = ? and password = ?");
+			query.setString(1, userid);
+			query.setString(2, password);
+			result = query.executeQuery();
+			if(result != null/* && !result.getString(0).equals(null) && !result.getString(1).equals(null)*/)
+			{
+				return true;
+			}
+			else 
+				return false;
+		}
+	}
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		login("jelvin","akash123",false);
+		
+		
+		/*Statement st = con.createStatement();
+		ResultSet rs = st.executeQuery("select * from login;");
+		while (rs.next())
+			
+		{
+			System.out.println(rs.getString("userid"));
+			System.out.println(rs.getString("password"));
+			System.out.println(rs.getString("email"));
+			System.out.println(rs.getString("status"));
+		}*/
+		
+	}
+
+}

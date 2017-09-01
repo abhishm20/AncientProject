@@ -1,0 +1,10 @@
+2014-10-30 19:52:57,681 [Worker-0] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-10-30 19:52:57,934 [Worker-0] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:34771
+2014-10-31 03:49:34,639 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}
+2014-10-31 03:49:34,766 [Framework stop] WARN  o.e.j.util.thread.QueuedThreadPool - 2 threads could not be stopped
+2014-11-06 18:21:09,106 [Worker-4] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-11-06 18:21:09,399 [Worker-4] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:46934
+2014-11-06 18:33:16,360 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}
+2014-11-11 12:42:49,148 [Worker-4] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-11-11 12:42:50,245 [Worker-4] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:38481
+2014-11-11 12:46:17,629 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/jrebel,null}

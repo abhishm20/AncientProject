@@ -1,0 +1,322 @@
+/*====================================== reset.css is here ========================================*/
+
+.form{
+	background:#ffffff; width:500px; margin:0 auto; padding-left:50px; padding-top:50px;
+}
+
+.form fieldset{border:0px; padding:0px; margin:0px;}
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form input[type="text"] { width: 400px; }
+.form input[type="email"] { width: 400px; }
+.form input[type="password"] { width: 400px; }
+.form input.birthday{width:60px;}
+.form input.birthyear{width:120px;}
+.form label { color: #666666; font-weight:bold;font-size: 14px;font-family:Arial, Helvetica; }
+.form label.month {width: 135px;}
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid #777777; padding: 7px; font-family: Keffeesatz, Arial; color: #666666; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style
+.form .gender {
+  width:410px;
+  }
+.form input.buttom{ background: #909090; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.form input.buttom:hover	{ background-color: #87ceff; color:#666666 }
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	height: 0;
+}
+.clrflt {
+	clear: both;
+}
+.last {
+	margin: 0 !important;
+}
+.pad_last {
+	padding: 0 !important;
+}
+
+/**************************************************************************************/
+a {
+	color: #000;
+	text-decoration: none;
+	outline: 0 none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+/*----------------------------------------------------------------------------------*/
+html {
+}
+body {
+	color: #666666;
+	font-family: "Arial", Verdana, Tahoma;
+	font-size: 12px;
+}
+.flt_lt {
+	float: left;
+	display: inline;
+}
+.flt_rt {
+	float: right;
+	display: inline;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------*/
+a.menu {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu1 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu1:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu2 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu2:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu3 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu3:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu4 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu4:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/* ----------------------- layout ----------*/
+.wrapper {
+	margin: 0 auto;
+}
+.main {
+	width: 100%;
+	margin: 0 auto;
+	background: #909090;
+}
+.header {
+	width: 980px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.footer {
+}
+/*-------------------------------------------*/
+
+
+/* ------------------ HEADER HERE -------------------*/
+.logo {
+	width: 145px;
+	margin: 0 0 0 25px;
+	padding: 30px 0 20px 0;
+}
+.logo h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #333333;
+}
+.logo h1 span {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #339933;
+}
+.logo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #666666;
+	line-height: 20px;
+}
+.header_right {
+	width: 197px;
+	padding: 66px 0 0 0;
+	height: 18px;
+}
+.header_right ul {
+}
+.header_right ul li {
+	float: left;
+	padding: 0 29px 0 0;
+}
+.header_right ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.header_right ul li a span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	display: inline-block;
+	padding: 2px 0px 0 6px;
+}
+.header_right ul li a .img {
+	padding: 0px 0 0 0px;
+	display: inline-block;
+	margin: 0 0 -3px 0
+}
+.header_right ul li a span:hover {
+	color: #000;
+}
+/* ------------------------- NAVIGATION HERE ---------------*/
+#nav {
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url(../images/nav_bg.jpg);
+	width: 940px;
+	height: 44px;
+	background-color: #87ceff;
+	margin-left: 20px;
+}
+#nav ul {
+	padding-top: 15px;
+	padding-right: 0;
+	padding-left: 110px;
+	padding-bottom: 0;
+}
+#nav ul li {
+	float: left;
+	padding-top: 0;
+	padding-right: 65px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+#nav ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+}
+#nav ul li a span {
+}
+#nav ul li a:hover {
+	color: #fff;
+}
+/* ---------------------------------------------------------*/
+
+.registration {
+	width: 980px;
+	height:1310px;
+	margin: 0 auto;
+	background: #fff;
+	
+}
+.login {
+	width: 980px;
+	height:500px;
+	margin: 0 auto;
+	background: #fff;
+	
+}
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+
+.footer {
+	width: 980px;
+	background: #fff;
+	margin: 13px auto 0;
+}
+.footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-align: center;
+	padding: 28px 0 25px 0;
+}
+.footer p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+.footer p a:hover {
+	color: #000;
+}
+/* ---------------------------------------------------------*/

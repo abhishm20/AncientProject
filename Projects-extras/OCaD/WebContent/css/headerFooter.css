@@ -1,0 +1,234 @@
+/*====================================== reset.css is here ========================================*/
+
+@font-face {
+    font-family: font;
+    src: url(oswald-regular.ttf);
+}
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+.ocad
+{
+width: 100px;
+height:150px;
+width:500px; margin:0 auto; padding-left:20px; padding-top:10px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+h4 {font-size:16px;}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	height: 0;
+}
+.clrflt {
+	clear: both;
+}
+.last {
+	margin: 0 !important;
+}
+.pad_last {
+	padding: 0 !important;
+}
+
+
+html {
+}
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif,"Arial", Verdana, Tahoma;
+	font-size: 12px;
+}
+.flt_lt {
+	float: left;
+	display: inline;
+}
+.flt_rt {
+	float: right;
+	display: inline;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------*/
+a.menu {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu1 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu1:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu2 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu2:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu3 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu3:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+a.menu4 {
+	text-decoration: none;
+	color: #e2e2e2;
+}
+a.menu4:hover {
+	text-decoration: underline;
+	color: #e2e2e2;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/* ----------------------- layout ----------*/
+.wrapper {
+	margin: 0 auto;
+}
+.main {
+	width: 100%;
+	margin: 0 auto;
+	background: #909090;
+}
+.header {
+	width: 980px;
+	background: #909090;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+/*-------------------------------------------*/
+
+
+/* ------------------ HEADER HERE -------------------*/
+.logo {
+	width: 145px;
+	margin: 0 0 0 25px;
+	padding: 30px 0 20px 0;
+}
+.logo h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #333333;
+}
+.logo h1 span {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #339933;
+}
+.logo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #666666;
+	line-height: 20px;
+}
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+#nav {
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url(../images/nav_bg.jpg);
+	width: 940px;
+	height: 44px;
+	background-color: #909090;
+	margin-left: 20px;
+}
+#nav tr {
+	padding-top: 15px;
+	padding-right: 0;
+	padding-left: 110px;
+	padding-bottom: 0;
+}
+#nav tr td {
+	float: left;
+	padding-top: 0;
+	padding-right: 45px;
+	padding-left: 10px;
+	padding-bottom: 0;
+}
+#nav tr td a {
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	/* font-weight: bold; */
+	color: #87ceff;
+	text-align: center;
+	text-decoration: none;
+}
+#nav tr td a span {
+}
+#nav tr td a:hover {
+	color: #fff;
+}
+/* ---------------------------------------------------------*/
+
+
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+
+.footer {
+	width: 980px;
+	background: #fff;
+	margin: 13px auto 0;
+}
+.footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-align: center;
+	padding: 28px 0 25px 0;
+}
+.footer p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+.footer p a:hover {
+	color: #000;
+}
+/* ---------------------------------------------------------*/
+

@@ -1,0 +1,15 @@
+<div class="page-top clearfix" scroll-position="scrolled" max-height="50" ng-class="{'scrolled': scrolled}">
+  <a href="#/dashboard" class="al-logo clearfix"><span style="text-transform: uppercase;">{{$root.manager.client.name}}</span></a>
+
+  <div class="user-profile clearfix">
+    <button id="logout" class="btn btn-danger btn-sm pull-right">Log out</button>
+  </div>
+</div>
+<script>
+  $("#logout").click(function () {
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++)
+      eraseCookie(cookies[i].split("=")[0]);
+    window.location.href = "http://www.daybox.in/login.html";
+  })
+</script>

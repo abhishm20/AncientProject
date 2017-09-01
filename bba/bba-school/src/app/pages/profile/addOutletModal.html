@@ -1,0 +1,99 @@
+<div class="modal-content">
+    <form ng-submit="create()">
+        <div class="modal-header">
+            <button type="button" class="close" ng-click="$dismiss()" aria-label="Close">
+                <em class="ion-ios-close-empty sn-link-close"></em>
+            </button>
+            <h4 class="modal-title">Add Outlet</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Outlet Name *</label>
+                        <input type="text" class="form-control" minlength="2" maxlength="200" required ng-model="outlet.name" placeholder="Outlet Name">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Rate Slab *</label>
+                        <select class="form-control selectpicker" selectpicker required title="Select"
+                                ng-model="outlet.rateSlab"
+                                ng-options="r.value as r.name for r in rateSlabs">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Delivery Slots *</label>
+                        <select class="form-control selectpicker" selectpicker required title="Select Delivery Slot"
+                                ng-model="outlet.deliverySlot"
+                                ng-options="r.value as r.name for r in deliverySlots">
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Outlet Contact Number *</label>
+                        <input type="text" class="form-control" minlength="2" maxlength="20" required ng-model="outlet.address.landline" placeholder="Landline Number">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Emails</label>
+                        <input type="text" tag-input="primary" value="" ng-model="outlet.emails" data-role="tagsinput" placeholder="Add Email">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >SCO/Plot No. *</label>
+                        <input type="text" class="form-control" minlength="1" maxlength="200" required ng-model="outlet.address.street" placeholder="SCO/Plot No.">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >Area</label>
+                        <input type="text" class="form-control" minlength="1" maxlength="200" ng-model="outlet.address.area" placeholder="Area">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >Landmark</label>
+                        <input type="text" class="form-control" minlength="1" maxlength="200" ng-model="outlet.address.landmark" placeholder="Landmark">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >City *</label>
+                        <input type="text" class="form-control" minlength="1" maxlength="200" required ng-model="outlet.address.city" placeholder="City">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >State *</label>
+                        <input type="text" class="form-control" minlength="1" maxlength="200" required ng-model="outlet.address.state" placeholder="State">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label >Pincode *</label>
+                        <input type="text" class="form-control" minlength="6" maxlength="6" required ng-model="outlet.address.pincode" placeholder="Pincode">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" ng-click="$dismiss()">Cancel</button>
+            <input type="submit" class="btn btn-primary" value="Add"/>
+        </div>
+    </form>
+</div>

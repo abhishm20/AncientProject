@@ -1,0 +1,1106 @@
+2014-11-17 01:32:16.055 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-17 01:32:16.663 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-17 01:32:17.998 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-17 01:32:20.407 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:49652/jrebel/notifications
+2014-11-17 01:32:20.538 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 01:32:20.671 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 01:32:20.681 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1fbc6812
+2014-11-17 01:32:21.257 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 01:32:21.259 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 01:32:21.264 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4ea41dc9
+2014-11-17 01:32:25.992 [Worker-2] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1fbc6812 stopped with exit code 2
+2014-11-17 01:32:26.025 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4ea41dc9 stopped with exit code 2
+2014-11-17 01:32:26.161 [JRebel License Expiration Notification Checker] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 01:32:26.153 [Worker-2] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 01:32:26.217 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 01:32:26.237 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 01:32:26.241 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@35e5c0a
+2014-11-17 01:32:27.588 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@35e5c0a stopped with exit code 2
+2014-11-17 01:32:27.593 [Thread-24] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 01:38:21.162 [Worker-1] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-17 01:38:21.183 [Worker-1] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-17 01:38:21.235 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-17 01:38:21.790 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:38582/jrebel/notifications
+2014-11-17 01:38:21.802 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 01:38:21.818 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 01:38:21.831 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@626c910d
+2014-11-17 01:38:22.745 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@626c910d stopped with exit code 2
+2014-11-17 01:38:22.848 [Worker-1] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 01:38:22.862 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 01:38:22.873 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 01:38:22.892 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7c1bdbf2
+2014-11-17 01:38:23.915 [Thread-25] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7c1bdbf2 stopped with exit code 2
+2014-11-17 01:38:23.927 [Thread-25] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 21:21:26.566 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-17 21:21:26.746 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-17 21:21:26.946 [Worker-4] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-17 21:21:27.800 [Worker-4] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:40124/jrebel/notifications
+2014-11-17 21:21:27.836 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 21:21:27.962 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 21:21:27.973 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@3a809b3c
+2014-11-17 21:21:29.489 [Worker-4] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@3a809b3c stopped with exit code 2
+2014-11-17 21:21:29.626 [Worker-4] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 21:21:29.650 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 21:21:29.661 [Thread-27] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 21:21:29.668 [Thread-27] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@476eeafe
+2014-11-17 21:21:31.465 [Thread-27] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@476eeafe stopped with exit code 2
+2014-11-17 21:21:31.486 [Thread-27] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 21:24:03.789 [Worker-3] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 21:24:03.795 [Worker-3] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=AUTO
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 21:24:57.488 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 21:24:57.489 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 21:44:57.636 [Worker-59] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 21:44:57.643 [Worker-59] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 21:54:58.012 [Worker-98] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 21:54:58.013 [Worker-98] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 21:56:00.089 [Worker-102] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 21:56:00.095 [Worker-102] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:00:28.738 [Worker-150] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:00:28.741 [Worker-150] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:08:46.098 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-17 22:08:46.272 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-17 22:08:46.478 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-17 22:08:47.822 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:47539/jrebel/notifications
+2014-11-17 22:08:47.943 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 22:08:48.080 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 22:08:48.088 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@a854d0
+2014-11-17 22:08:51.854 [Worker-0] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@a854d0 stopped with exit code 2
+2014-11-17 22:08:52.020 [Worker-0] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 22:08:52.028 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 22:08:52.050 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 22:08:52.078 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@3f025987
+2014-11-17 22:08:53.290 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@3f025987 stopped with exit code 2
+2014-11-17 22:08:53.303 [Thread-24] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 22:09:49.713 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-17 22:09:49.724 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-17 22:09:49.821 [Worker-4] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-17 22:09:50.535 [Worker-4] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:39175/jrebel/notifications
+2014-11-17 22:09:50.566 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 22:09:50.580 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 22:09:50.582 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4bef4ca7
+2014-11-17 22:09:52.042 [Worker-4] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4bef4ca7 stopped with exit code 2
+2014-11-17 22:09:52.161 [Worker-4] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 22:09:52.195 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-17 22:09:52.210 [Thread-26] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-17 22:09:52.220 [Thread-26] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@4b9545f6
+2014-11-17 22:09:53.786 [Thread-26] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@4b9545f6 stopped with exit code 2
+2014-11-17 22:09:53.801 [Thread-26] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-17 22:47:06.399 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:47:06.400 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:49:52.110 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:49:52.110 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:50:31.487 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:50:31.491 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:52:10.780 [Worker-9] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:52:10.781 [Worker-9] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 22:59:00.570 [Worker-9] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 22:59:00.575 [Worker-9] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:00:09.348 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:00:09.353 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:01:08.615 [Worker-13] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:01:08.616 [Worker-13] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:01:54.613 [Worker-19] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:01:54.616 [Worker-19] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:06:03.792 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:06:03.800 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:14:18.505 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:14:18.506 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:17:11.887 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:17:11.900 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:18:05.825 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:18:05.825 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:28:21.128 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:28:21.130 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:29:19.917 [Worker-26] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:29:19.918 [Worker-26] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:29:31.122 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:29:31.130 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:30:00.241 [Worker-16] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:30:00.242 [Worker-16] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:30:26.397 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:30:26.405 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:30:51.243 [Worker-26] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:30:51.245 [Worker-26] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:33:34.089 [Worker-25] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:33:34.090 [Worker-25] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:34:09.362 [Worker-23] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:34:09.363 [Worker-23] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-17 23:43:21.906 [Worker-30] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-17 23:43:21.907 [Worker-30] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:00:08.509 [Worker-33] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:00:08.510 [Worker-33] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:02:00.666 [Worker-37] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:02:00.672 [Worker-37] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:03:06.228 [Worker-36] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:03:06.231 [Worker-36] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:04:44.399 [Worker-39] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:04:44.400 [Worker-39] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:09:50.821 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-18 00:09:50.830 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-18 00:09:50.839 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@41b2b99
+2014-11-18 00:09:53.915 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@41b2b99 stopped with exit code 2
+2014-11-18 00:09:53.945 [JRebel License Expiration Notification Checker] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-18 00:10:27.582 [Worker-43] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:10:27.583 [Worker-43] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:19:38.793 [Worker-45] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:19:38.797 [Worker-45] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:20:37.368 [Worker-48] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:20:37.368 [Worker-48] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:21:59.176 [Worker-42] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:21:59.176 [Worker-42] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:23:29.218 [Worker-48] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:23:29.222 [Worker-48] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:24:51.599 [Worker-45] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:24:51.606 [Worker-45] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:25:27.586 [Worker-48] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:25:27.586 [Worker-48] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:27:23.364 [Worker-34] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:27:23.366 [Worker-34] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:35:10.646 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:35:10.656 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:44:21.357 [Worker-61] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:44:21.358 [Worker-61] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:44:46.938 [Worker-55] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:44:46.939 [Worker-55] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:46:23.209 [Worker-59] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:46:23.213 [Worker-59] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:47:32.928 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:47:32.929 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:50:15.223 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:50:15.224 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:51:22.208 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:51:22.208 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:52:30.072 [Worker-61] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:52:30.075 [Worker-61] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:53:46.194 [Worker-62] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:53:46.198 [Worker-62] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 00:54:56.354 [Worker-59] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 00:54:56.366 [Worker-59] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:00:31.859 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:00:31.862 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:04:36.571 [Worker-49] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:04:36.571 [Worker-49] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:07:07.997 [Worker-55] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:07:07.998 [Worker-55] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:08:31.777 [Worker-55] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:08:31.778 [Worker-55] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:10:31.380 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:10:31.380 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:15:01.000 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:15:01.003 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:16:47.966 [Worker-70] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:16:47.966 [Worker-70] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:41:14.831 [Worker-75] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:41:14.837 [Worker-75] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:43:27.600 [Worker-80] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:43:27.605 [Worker-80] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:44:59.143 [Worker-79] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:44:59.150 [Worker-79] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:46:12.758 [Worker-75] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:46:12.759 [Worker-75] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:49:32.519 [Worker-78] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:49:32.524 [Worker-78] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:54:05.602 [Worker-80] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:54:05.602 [Worker-80] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 01:56:30.380 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 01:56:30.385 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:00:27.752 [Worker-78] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:00:27.752 [Worker-78] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:01:15.652 [Worker-84] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:01:15.653 [Worker-84] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:08:30.574 [Worker-85] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:08:30.576 [Worker-85] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:11:15.755 [Worker-88] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:11:15.756 [Worker-88] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:12:39.729 [Worker-78] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:12:39.729 [Worker-78] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:13:13.607 [Worker-90] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:13:13.610 [Worker-90] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game
+2014-11-18 02:16:43.458 [Worker-86] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Memory_Game
+2014-11-18 02:16:43.458 [Worker-86] DEBUG RebelArgsFixingLaunchListener - 
+entry: com.android.ide.eclipse.adt.action=0
+entry: com.android.ide.eclipse.adt.commandline=
+entry: com.android.ide.eclipse.adt.delay=0
+entry: com.android.ide.eclipse.adt.nobootanim=false
+entry: com.android.ide.eclipse.adt.reuse.last.used.device=false
+entry: com.android.ide.eclipse.adt.speed=0
+entry: com.android.ide.eclipse.adt.target=MANUAL
+entry: com.android.ide.eclipse.adt.wipedata=false
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Memory_Game, /Memory_Game/AndroidManifest.xml]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4, 1]
+entry: org.eclipse.jdt.launching.ALLOW_TERMINATE=true
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Memory_Game

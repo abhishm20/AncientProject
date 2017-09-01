@@ -1,0 +1,28 @@
+<div class="widgets">
+
+    <div ba-panel ba-panel-title="Sales Input" ba-panel-class="with-scroll">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" style="border: 1px solid #F0F3F4; border-radius:5px">
+                    <table ng-table="saleList" class="table">
+                        <tr ng-repeat="t in $data">
+                            <td title="'#'">
+                                <span>{{$index +1}}</span>
+                            </td>
+                            <td title="'Date'" sortable="'createdAt'">
+                                {{t.createdAt | amDateFormat:"DD MMMM YYYY"}}
+                            </td>
+                            <td ng-repeat="outlet in outlets">
+                                <form ng-submit="createSale(t, outlet.name, outlet.id)">
+                                <input type="number" auto-focus="true" ng-hide="t[outlet.name]['isSet']" required ng-model="t[outlet.name]['amount']" step="any" min="0" style="text-align: center" class="form-control" placeholder="{{outlet.name}} Sales">
+                               <span ng-show="t[outlet.name]['isSet']"><i class="fa fa-inr"></i> {{t[outlet.name]['amount'] | currency:""}}</span>
+                                    <input hidden="true" type="submit" value="">
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

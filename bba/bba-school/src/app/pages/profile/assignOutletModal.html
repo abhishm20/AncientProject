@@ -1,0 +1,50 @@
+<div class="modal-content">
+    <form ng-submit="assign()">
+        <div class="modal-header">
+            <button type="button" class="close" ng-click="$dismiss()" aria-label="Close">
+                <em class="ion-ios-close-empty sn-link-close"></em>
+            </button>
+            <h4 class="modal-title">Update Assignment</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row" ng-repeat="a in purchaser.outletIds track by $index">
+                <div class="col-sm-11" style="padding-right: 0px">
+                    <div class="form-group">
+                        <select class="form-control selectpicker" selectpicker required title="Select Outlet"
+                                ng-model="a" ng-click="add($index)" disabled
+                                ng-options="r.id as r.name for r in outlets">
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-1" style="padding-left: 0px;">
+                    <div class="form-group">
+                        <button type="button" tabindex="-1" ng-click="remove(a)" class="btn btn-danger btn-xs btn-icon"><i class="ion-close-round"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" ng-repeat="a in newOutlets track by $index">
+                <div class="col-sm-11" style="padding-right: 0px">
+                    <div class="form-group">
+                        <select class="form-control selectpicker" selectpicker required title="Select Outlet"
+                                ng-model="a.id"
+                                ng-options="r.id as r.name for r in outlets">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <button type="button" ng-hide="isOne" class="btn btn-sm btn-primary" ng-click="add()">Assign new Outlet</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" ng-click="$dismiss()">Cancel</button>
+            <input type="submit" class="btn btn-primary" value="Submit"/>
+        </div>
+    </form>
+</div>

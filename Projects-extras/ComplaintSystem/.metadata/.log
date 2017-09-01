@@ -1,0 +1,13 @@
+!SESSION 2014-10-28 02:07:38.785 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/abhishek/Dropbox/Projects-extras/ComplaintSystem -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.zeroturnaround.eclipse 4 0 2014-10-28 02:08:09.861
+!MESSAGE Got Exception: null
+
+!ENTRY org.zeroturnaround.eclipse 4 0 2014-10-28 02:08:10.790
+!MESSAGE Got Exception: null

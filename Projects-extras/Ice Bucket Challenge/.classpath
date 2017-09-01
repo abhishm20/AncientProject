@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/ecj-P20140317-1600.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="/home/abhishek/tomcat/lib/websocket-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate"/>
+	<classpathentry kind="lib" path="/home/abhishek/Softwares/hibernate-release-4.3.6.Final/hibernate-release-4.3.6.Final/lib/jpa/hibernate-entitymanager-4.3.6.Final.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

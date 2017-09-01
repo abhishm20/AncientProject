@@ -1,0 +1,134 @@
+2015-01-03 01:18:41.352 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2015-01-03 01:18:41.633 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2015-01-03 01:18:42.065 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2015-01-03 01:18:42.982 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:55429/jrebel/notifications
+2015-01-03 01:18:43.038 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 01:18:43.102 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 01:18:43.130 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@b8697df
+2015-01-03 01:18:45.387 [Worker-2] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@b8697df stopped with exit code 2
+2015-01-03 01:18:45.517 [Worker-2] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2015-01-03 01:18:45.525 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 01:18:45.537 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 01:18:45.540 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1c1fe49d
+2015-01-03 01:18:47.221 [Thread-22] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1c1fe49d stopped with exit code 2
+2015-01-03 01:18:47.236 [Thread-22] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2015-01-03 02:31:13.360 [Worker-1] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2015-01-03 02:31:13.714 [Worker-1] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2015-01-03 02:31:14.428 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2015-01-03 02:31:15.457 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:48211/jrebel/notifications
+2015-01-03 02:31:15.519 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 02:31:15.628 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 02:31:15.638 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7ee7982c
+2015-01-03 02:31:19.338 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7ee7982c stopped with exit code 2
+2015-01-03 02:31:19.405 [Worker-1] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2015-01-03 02:31:19.408 [Worker-1] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 02:31:19.410 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 02:31:19.418 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7c779bc0
+2015-01-03 02:31:20.898 [Thread-22] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7c779bc0 stopped with exit code 2
+2015-01-03 02:31:20.909 [Thread-22] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2015-01-03 02:47:41.064 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for RestfulExample
+2015-01-03 02:47:41.065 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:RestfulExample//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/RestfulExample]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 02:47:41.850 [Worker-18] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2015-01-03 02:47:41.864 [Worker-18] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/web_service/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/web_service/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 02:49:19.551 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for RestfulExample
+2015-01-03 02:49:19.560 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:RestfulExample//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/RestfulExample]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 02:54:11.660 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for RestfulExample
+2015-01-03 02:54:11.660 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:RestfulExample//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/RestfulExample]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 02:57:27.858 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for RESTfulExample
+2015-01-03 02:57:27.859 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.j2ee.server:RESTfulExample//
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/RESTfulExample]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 02:57:31.093 [Worker-27] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2015-01-03 02:57:31.096 [Worker-27] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/web_service/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/web_service/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2015-01-03 11:43:29.641 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2015-01-03 11:43:29.881 [Worker-2] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2015-01-03 11:43:30.231 [Worker-2] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2015-01-03 11:43:31.023 [Worker-2] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:33083/jrebel/notifications
+2015-01-03 11:43:31.068 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 11:43:31.116 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 11:43:31.128 [Worker-2] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@8d97a16
+2015-01-03 11:43:32.414 [Worker-2] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@8d97a16 stopped with exit code 2
+2015-01-03 11:43:32.516 [Worker-2] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2015-01-03 11:43:32.519 [Worker-2] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2015-01-03 11:43:32.525 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2015-01-03 11:43:32.540 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1f0f8e00
+2015-01-03 11:43:33.525 [Thread-25] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1f0f8e00 stopped with exit code 2
+2015-01-03 11:43:33.528 [Thread-25] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]

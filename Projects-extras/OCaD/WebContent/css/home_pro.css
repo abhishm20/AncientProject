@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+.mainContent{
+		width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.content{
+	margin: 0 auto;
+	
+	width: 1000px;
+	height:1000px;
+	background-color: #E3E3E3;
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+/*.-----------------profile content start------------------  */
+.profile_content{
+	background: #fff;
+	height:940px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 15px;
+	border: 1px solid #909090; 
+}
+div#profile_pic{
+	border: 1px solid #909090;
+	border-radius:4px;
+	width:150px;
+	height:150px;
+}

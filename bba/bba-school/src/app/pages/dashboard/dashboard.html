@@ -1,0 +1,51 @@
+<div class="widgets">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div ba-panel ba-panel-title="Dashboard" ba-panel-class="with-scroll">
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <p class="input-group">
+                            <input type="text" class="form-control" uib-datepicker-popup="dd MMM yy"  ng-model="date.start" is-open="popup1.opened" ng-f ng-required="true" close-text="Close" />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="input-group">
+                            <input type="text" class="form-control"  uib-datepicker-popup="dd MMM yy" ng-model="date.end" is-open="popup2.opened" ng-required="true" close-text="Close" />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" ng-click="open2()"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" ng-click="updateGraph()" class="pull-right btn btn-sm btn-info">Update Graph</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" ng-click="getReport1()" class="pull-right btn btn-sm btn-primary">Consolidated Purchase Summary</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" ng-click="getReport2()" class="pull-left btn btn-sm btn-primary">Detailed Transaction Summary</button>
+                    </div>
+                </div>
+                <div class="col-md-12"><hr></div>
+                <div class="row">
+                    <div class="col-md-12 well well-sm">
+                        <div class="col-md-6 col-md-offset-5"><strong>Day-wise Sales/Purchases</div>
+                        <div style="height: 500px" id="graph1">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 well well-sm">
+                        <div class="col-md-6 col-md-offset-5"><strong>Day-wise Amount/Quantity</strong></div>
+                        <div style="height: 500px" id="graph2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

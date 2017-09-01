@@ -1,0 +1,61 @@
+{
+  "name": "Admin",
+  "plural": "Admins",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "updatedAt": {
+      "type": "date"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "isDeleted": {
+      "type": "date"
+    },
+    "role": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "school": {
+      "type": "belongsTo",
+      "model": "School",
+      "foreignKey": ""
+    },
+    "secrets": {
+      "type": "hasMany",
+      "model": "Secret",
+      "foreignKey": "adminId"
+    },
+    "resetTokens": {
+      "type": "hasMany",
+      "model": "ResetToken",
+      "foreignKey": "adminId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

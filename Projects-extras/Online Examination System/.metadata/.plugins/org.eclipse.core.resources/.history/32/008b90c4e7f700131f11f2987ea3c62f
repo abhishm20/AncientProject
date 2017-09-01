@@ -1,0 +1,5 @@
+package com.tkhts.online_exam.database;
+
+public class Jdbc {
+
+}

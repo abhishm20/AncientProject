@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   
+   <meta charset="utf-8">
+	<title>ASL ~ ICB</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+<script type="text/javascript" src="js/videoPageChanger.js"></script>
+
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Videos</a></li>
+	         <li><a class="smoothscroll" href="#resume">Challenges</a></li>
+            <li><a class="smoothscroll" href="#testimonials">About</a></li>
+            <li><a class="smoothscroll" href="#contact">Upload</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">ALS ~ Ice Bucket Challenges</h1>
+            <h3>Promoting awareness of the disease Amyotrophic Lateral Sclerosis (ALS) and encourage donations to reasearch</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/pages/Als-Ice-Bucket-Challenge/521988114601499"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCd7pakRJLmHashnsTaN-lNA"><i class="fa fa-youtube"></i></a></li>
+               
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#portfolio"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+ <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+<div style="float: left;height: 460px;width: 120px;position: absolute;padding-top: 80px;">
+<a class="button" style="height: 460px;opacity: .2; width: 120px;padding-top: 220px;" onclick="return leftPageList()">
+<img alt="next" src="images/arrow_right_1.png">
+</a>
+</div>
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of Videos.</h1>
+<div id="videoPage">
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+           
+			
+
+ 				
+        	<div class="columns portfolio-item">
+                  	<div class="item-wrap">
+					
+ <a href="#modal-0<%=count%>">
+                    
+                        <img alt="<c:out value="${person.name}"></c:out> image" src="GetImage.icb?id=<c:out value="${person.id}" ></c:out>"  height="100%" width="100%" />
+                       
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5><c:out value="${person.name}"></c:out></h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> 
+<div id="modal-0<%=count %>" class="popup-modal mfp-hide "> 
+
+<iframe id="ytplayer" type="text/html" width="640" height="390"
+  src="http://www.youtube.com/embed/<c:out value="${person.url}"></c:out>?autoplay=0&origin=http://example.com"
+  frameborder="0"></iframe> 
+</div>
+
+
+<%count++;%>  
+    </c:forEach>
+          	   </div>
+          		
+          		 </div> <!-- twelve columns end -->
+
+</div>
+<div style="float: right;height: 460px;width: 120px;position: absolute;padding-top: 80px;right:0;">
+<a class="button" style="height: 460px;width: 120px;opacity: .2;padding-top: 200px;" onclick="return rightPageList()">
+<img alt="next" src="images/arrow_left_1.png">
+</a>
+</div>
+</div>
+
+
+      <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+     
+      
+    <iframe style=" overflow:hidden;" id="challengeGraph" type="text/html" width="100%" height="600px"
+  src="http://ibc.qex.cz/"
+  frameborder="0"></iframe>
+
+   </section> <!-- Resume Section End-->
+
+
+  
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Amyotrophic lateral sclerosis (ALS)—also referred to as motor neurone disease (MND), Charcot disease, and, in the United States, Lou Gehrig's disease—is a neurodegenerative disease with various causes.
+                            It is characterised by muscle spasticity, rapidly progressive weakness due to muscle atrophy, and difficulty in speaking (dysarthria), swallowing (dysphagia), and breathing (dyspnea).
+                            ALS is the most common of the five motor neuron diseases.
+                           </p>
+                           <cite>Amyotrophic lateral sclerosis</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>The Ice Bucket Challenge, sometimes called the ALS Ice Bucket Challenge, is an activity involving dumping a bucket of ice water on someone's head to promote awareness of the disease amyotrophic lateral sclerosis (ALS) and encourage donations to research.
+                            It went viral throughout social media during mid 2014.
+                            In the UK, people participate in the challenge for the Motor Neurone Disease Association
+                           </p>
+                           <cite>The Ice Bucket Challenge</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">For any query or feedback, kindly contact us :<br>
+                  <cite>contact no. :&nbsp;&nbsp;&nbsp; +91-9761604698</cite>
+                  <cite>&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-8447157969</cite>
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="SendEmail.icb" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div style="padding-left: 500px;">
+                     <button >Submit</button>
+                     <%if(request.getAttribute("sent") != null && request.getParameter("sent").equals("sent")){ %>
+                     <div style="color: red;">Your mail was successfully sent !!!</div>
+                     <%} %>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+           
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 WebArtDesigner</li>
+               <li ><div style="opacity:0;">Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></div></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>

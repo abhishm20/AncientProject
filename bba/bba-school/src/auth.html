@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DayBox</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
+    <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/auth.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body>
+    <main class="auth-main">
+        <div class="auth-block" id="loginBlock" style="display:block;">
+            <h1>Sign in to Daybox</h1>
+            <form id="loginForm" class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <input type="text" name="email" required class="form-control" style="text-align: center;" placeholder="Enter Email Id">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <input type="password" name="password" required class="form-control" maxlength="10" style="text-align: center;" placeholder="Enter Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-default btn-auth">Login</button>
+                    </div>
+                    <!--<div class="col-sm-12">-->
+                        <!--<a href class="forgot-pass">Forgot password?</a>-->
+                    <!--</div>-->
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        $("#loginForm").on("submit", function(){
+            $.ajax({
+                url: 'http://localhost:3000/api/admins/Login',
+                data: {
+                    "email": $("[name='email']").val(),
+                    "password": $("[name='password']").val()
+                },
+                method: "POST",
+                error: function(err) {
+                    alert(JSON.parse(err.responseText).error.message);
+                },
+                success: function(data) {
+                    var date = new Date();
+                    date.setTime(date.getTime()+(5*24*60*60*1000));
+                    var expires = "; expires="+date.toGMTString();
+                    document.cookie = "_secret="+data.response.secret+expires+"; path=/";
+                    document.cookie = "_id="+data.response.admin.id+expires+"; path=/";
+                    document.cookie = "_sd="+data.response.schoolId+expires+"; path=/";
+                    window.location.href = "/";
+                }
+            });
+            return false;
+        });
+    </script>
+</body>
+</html>

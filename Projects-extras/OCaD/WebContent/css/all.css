@@ -1,0 +1,26 @@
+.content {
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+
+
+
+
+.testMainContent{
+		width: 100%;
+	margin: 0 auto;
+	background: #909090;
+}
+.testContent{
+	margin: 0 auto;
+	
+	width: 920px;
+	height:1000px;
+	background-color: #fff;
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+

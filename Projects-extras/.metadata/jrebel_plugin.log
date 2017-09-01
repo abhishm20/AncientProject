@@ -1,0 +1,22 @@
+2014-10-28 02:09:15.856 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-10-28 02:09:15.868 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-10-28 02:09:15.927 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-28 02:09:16.396 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:46982/jrebel/notifications
+2014-10-28 02:09:16.438 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-28 02:09:16.456 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-10-28 02:09:16.465 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6a7cb9bb
+2014-10-28 02:09:17.563 [Worker-0] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6a7cb9bb stopped with exit code 2
+2014-10-28 02:09:17.608 [Worker-0] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-28 02:09:17.641 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-28 02:09:17.645 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-10-28 02:09:17.651 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@113ee162
+2014-10-28 02:09:18.596 [Thread-22] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@113ee162 stopped with exit code 2
+2014-10-28 02:09:18.602 [Thread-22] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]

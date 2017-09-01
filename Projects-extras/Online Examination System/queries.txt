@@ -1,0 +1,7 @@
+
+
+ create table past_record (test_level smallint, userid varchar(20), q1 varchar(10), q2 varchar(10), q3 varchar(10), q4 varchar(10), q5 varchar(10), q6 varchar(10), q7 varchar(10), q8 varchar(10), q9 varchar(10)
+, q10 varchar(10), q11 varchar(10), q12 varchar(10), q13 varchar(10), q14 varchar(10), q15 varchar(10), q16 varchar(10), q17 varchar(10), q18 varchar(10)
+, q19 varchar(10), q20 varchar(10), q21 varchar(10), q22 varchar(10), q23 varchar(10), q24 varchar(10), q25 varchar(10), q26 varchar(10), q27 varchar(10)
+, q28 varchar(10), q29 varchar(10), q30 varchar(10));
+

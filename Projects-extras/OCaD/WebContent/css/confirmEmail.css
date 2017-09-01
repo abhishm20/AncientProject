@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.confirmContent
+{
+width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	height:450px;
+}
+.confirmPane{
+border: 2px solid #07913b;
+height:250px;
+	background:#ffffff; width:550px; margin:0 auto; padding-left:50px; padding-top:15px;padding-right:50px
+
+}

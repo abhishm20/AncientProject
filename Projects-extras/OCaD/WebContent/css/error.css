@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+.errorContent
+{
+width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	height:450px;
+}
+.errorPane{
+border: 2px solid #cc0000;
+height:250px;
+	background:#ffffff; width:550px; margin:0 auto; padding-left:50px; padding-top:15px;padding-right:50px
+
+}

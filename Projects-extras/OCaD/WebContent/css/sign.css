@@ -1,0 +1,78 @@
+
+.registrationform{
+	background:#ffffff; width:650px; margin:0 auto; padding-left:50px; padding-top:50px;
+}
+
+.registrationform fieldset{border:0px; padding:0px; margin:0px;}
+.registrationform p.contact { font-size: 12px; margin:0px 0px 10px 0; line-height: 20px; font-family:Arial, Helvetica;}
+.registrationform input[type="file"] { width: 400px; height:20px;}
+.registrationform input[type="text"] { width: 400px; height:20px; }
+.registrationform input[type="email"] { width: 400px; height:20px;}
+.registrationform input[type="password"] { width: 400px;height:20px; }
+.registrationform input.birthday{width:60px;}
+.registrationform input.birthyear{width:120px;}
+.registrationform label { color: #666666; font-size: 14px;font-family:Arial, Helvetica; }
+.registrationform label.month {width: 135px;}
+.registrationform input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid #777777; padding: 7px; font-family: Keffeesatz, Arial; color: #666666; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; }
+.registrationform input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.registrationform .select-style{height: 25px;margin-bottom:20px; background-color:#eee}
+.registrationform .gender {
+  width:410px;
+  }
+.registrationform input.buttom{width:100px; background: #909090; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.registrationform input.buttom:hover	{ background-color: #87ceff; color:#666666 }
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+	
+}
+table tr td{
+	padding-left: 10px;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	height: 0;
+}
+.clrflt {
+	clear: both;
+}
+.last {
+	margin: 0 !important;
+}
+.pad_last {
+	padding: 0 !important;
+}
+
+
+
+.registration {
+	width: 980px;
+	height:800px;
+	margin: 0 auto;
+	background: #fff;
+	
+}

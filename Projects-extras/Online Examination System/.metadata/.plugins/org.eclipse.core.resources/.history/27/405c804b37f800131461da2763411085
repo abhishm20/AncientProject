@@ -1,0 +1,53 @@
+package com.tkhts.online_exam.database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ResourceBundle;
+import com.mysql.jdbc.*;
+
+
+
+
+
+public class JDBC {
+	static String username;
+	static String password;
+	static ResourceBundle bundle;
+	static String url;
+	static String driver;
+	public static void getResources()
+	{
+		bundle = ResourceBundle.getBundle("jdbc");
+		url = bundle.getString("url");
+		driver = bundle.getString("driver");
+		username = bundle.getString("username");
+		password = bundle.getString("password");
+	}
+	
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		getResources();
+		//Class.forName("com.mysql.jdbc.Driver");
+		Class.forName(driver);
+		
+		Connection con = DriverManager.getConnection(url,username,password);
+		if(con!= null)
+		{
+			System.out.println("connection established....");
+		}
+		Statement st = con.createStatement();
+		ResultSet rs = st.executeQuery("select * from login;");
+		while (rs.next())
+			
+		{
+			System.out.println(rs.getString("userid"));
+			System.out.println(rs.getString("password"));
+			System.out.println(rs.getString("email"));
+			System.out.println(rs.getString("status"));
+		}
+		
+	}
+
+}

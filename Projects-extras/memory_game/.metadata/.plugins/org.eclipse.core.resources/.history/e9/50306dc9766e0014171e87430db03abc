@@ -1,0 +1,42 @@
+package com.mona.memory_game;
+
+import java.util.ArrayList;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+
+
+public class MainActivity extends Activity {
+
+	ArrayList<ImageButton> btns = new ArrayList<ImageButton>();
+	ArrayList<ImageView> images = new ArrayList<ImageView>();
+	ImageButton b;
+    @SuppressLint("NewApi") @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        	//images.get(0) = (ImageView) findViewById(R.drawable.ic_player_open);
+        images.add((ImageView) findViewById(R.drawable.ic_player_open));
+        images.add((ImageView) findViewById(R.drawable.ic_next));
+        images.add((ImageView) findViewById(R.drawable.ic_player_close));
+        images.add((ImageView) findViewById(R.drawable.ic_play_pressed));
+        images.add((ImageView) findViewById(R.drawable.ic_play));
+        
+        btns.add((ImageButton) findViewById(R.id.btn1));
+        btns.add((ImageButton) findViewById(R.id.btn2));        
+        btns.add((ImageButton) findViewById(R.id.btn3));
+        btns.add((ImageButton) findViewById(R.id.btn4));
+        btns.add((ImageButton) findViewById(R.id.btn5));
+        btns.add((ImageButton) findViewById(R.id.btn6));
+        btns.add((ImageButton) findViewById(R.id.btn7));
+        btns.add((ImageButton) findViewById(R.id.btn8));
+        btns.add((ImageButton) findViewById(R.id.btn9));
+        btns.add((ImageButton) findViewById(R.id.btn10));
+        btns.get(0).setBackground(images.get(0).getDrawable());
+    }
+
+}

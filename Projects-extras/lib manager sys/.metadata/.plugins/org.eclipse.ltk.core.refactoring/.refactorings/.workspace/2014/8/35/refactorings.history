@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Library Managent System&apos; to &apos;LMS&apos;" description="Rename resource &apos;Library Managent System&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Library Managent System" name="LMS" stamp="1409251297900" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;LMS&apos; to &apos;Library_Managent_System&apos;" description="Rename resource &apos;LMS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/LMS" name="Library_Managent_System" stamp="1409252254295" updateReferences="true"/>
+</session>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register :: BrainBox</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
+  <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/auth.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+
+</head>
+<body>
+<main class="auth-main">
+  <div class="auth-block">
+    <h2>Sign up to BrainBox</h2>
+    <a href="/auth.html" class="auth-link">Already have a BrainBox account? Sign in!</a>
+
+    <form class="form-horizontal row" id="signupForm">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-4 control-label">School Full Name</label>
+          <div class="col-sm-8">
+            <input type="text" name="name" required="true" maxlength="100" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">School Short Name</label>
+          <div class="col-sm-8">
+            <input type="text" name="shortName" required="true" maxlength="100" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">School Branch</label>
+          <div class="col-sm-8">
+            <input type="text" name="branch" required="true" minlength="2" maxlength="100" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">Referred By</label>
+          <div class="col-sm-8">
+            <input type="text" name="referredBy" maxlength="100" class="form-control" placeholder="(Optional)">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="col-sm-4 control-label">Your Name</label>
+          <div class="col-sm-8">
+            <input type="text" name="adminName" required="true" maxlength="100" class="form-control" placeholders="Your Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">Your Mobile Number</label>
+          <div class="col-sm-8">
+            <input type="text" name="adminMobile" required="true" maxlength="10" class="form-control" placeholders="Required for Login">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">Your Email</label>
+          <div class="col-sm-8">
+            <input type="email" name="adminEmail"required="true" maxlength="100"  class="form-control" placeholders="Your Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">New Password</label>
+          <div class="col-sm-8">
+            <input type="password" name="password" required="true" maxlength="100"  class="form-control" placeholders="New Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label">Confirm Password</label>
+          <div class="col-sm-8">
+            <input type="password" name="confirmPassword" required="true" maxlength="100"  class="form-control" placeholders="Confirm Password">
+          </div>
+        </div>
+        <!--<div class="form-group">-->
+          <!--<div class="col-sm-offset-2 col-sm-8 pull-right">-->
+            <!--<input type="checkbox" name="terms" id="terms">  I Agree <a href="/terms.html" target="_blank">Terms & Conditions</a>-->
+          <!--</div>-->
+        <!--</div>-->
+        <br>
+        <div class="form-group row">
+          <div class="col-sm-offset-3 col-sm-8 pull-right">
+            <button type="submit" class="btn btn-primary btn-auth">Create My Account</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</main>
+
+<script>
+    window.onload = function(){
+        var t1 = navigator.cookieEnabled;
+        document.cookie = "cookietest=1";
+        var t2 = document.cookie.indexOf("cookietest=") != -1;
+        document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+        if(!t1 || !t2){
+            alert("Please enable cookie, before proceeding");
+            return false;
+        }
+    };
+    $("#signupForm").on("submit", function(){
+        if($("[name='password']").val() == $("[name='confirmPassword']").val()){
+            $.ajax({
+                url: 'http://localhost:3000/api/schools',
+                data: {
+                    "name":  $("[name='name']").val(),
+                    "shortName": $("[name='shortName']").val(),
+                    "branch": $("[name='branch']").val(),
+                    "referredBy": $("[name='referredBy']").val(),
+                    "admin": {
+                        "name": $("[name='adminName']").val(),
+                        "email": $("[name='adminEmail']").val(),
+                        "mobile": $("[name='adminMobile']").val(),
+                        "password": $("[name='password']").val()
+                    }
+                },
+                method: "POST",
+                error: function(err) {
+                    alert(JSON.parse(err.responseText).error.message);
+                },
+                success: function(data) {
+                    var date = new Date();
+                    date.setTime(date.getTime()+(5*24*60*60*1000));
+                    var expires = "; expires="+date.toGMTString();
+                    document.cookie = "_secret="+data.secret+expires+"; path=/";
+                    document.cookie = "_id="+data.admin.id+expires+"; path=/";
+                    document.cookie = "_sd="+data.schoolId+expires+"; path=/";
+                    //window.location.href = "/";
+//                    window.location.href = "https://manager.daybox.in/#/dashboard?auth="+JSON.stringify({"md":data.response.managerId,"cd":data.response.clientId,"secret":data.response.secret});
+                    return;
+                }
+            });
+        }else{
+            alert("Password did not match");
+            return false;
+        }
+        return false;
+    });
+
+</script>
+</body>
+</html>

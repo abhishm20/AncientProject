@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="&lt;a href=&quot;#&quot;&gt;"/>
+			<item value="col-md-4"/>
+			<item value="col-md-12"/>
+			<item value="radio_month"/>
+			<item value="radio_week"/>
+			<item value="radio_day"/>
+			<item value="module"/>
+			<item value="text-transform: uppercase;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&lt;a href=&quot;index.jsp&quot;&gt;"/>
+			<item value="radio"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="245" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="425" key="DIALOG_HEIGHT"/>
+		<item value="1032" key="DIALOG_X_ORIGIN"/>
+		<item value="196" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

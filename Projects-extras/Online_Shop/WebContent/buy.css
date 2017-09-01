@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+#container{
+height:718px;
+width:1330px;
+background-color:#ebdfeb;
+}
+#header{
+height:100px;
+width:1330px;
+
+}
+#header1{
+height:100px;
+width:1230px;
+background-color:#ebdfeb;
+float:left;
+}
+#header2{
+height:100px;
+width:100px;
+background-color:#ebdfeb;
+float:right;
+}
+#space{
+height:50px;
+width:1330px;
+background-color:#ffffff;	
+	
+	}
+#content{
+height:568px;
+width:1330px;
+}
+#sidebar{
+height:568px;
+width:500px;
+float:left;
+background-color:#ffffff;
+	}
+	
+#formsection{
+height:568px;
+width:830px;
+float:right;
+background-color:#ffffff;
+	}

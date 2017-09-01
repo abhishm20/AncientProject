@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+#sidebar{
+
+height:400px;
+width:400px;
+float:left;
+}
+
+#maincontent{
+height:400px;
+width:930px;
+float:right;
+
+}
+#remarks{
+height:283px;
+width:1330px;
+}

@@ -1,0 +1,26 @@
+!SESSION 2014-03-11 22:31:30.052 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-03-11 22:31:40.681
+!MESSAGE Unable to access file "plugins/org.eclipse.jst.j2ee_1.1.603.v201301092200.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2014-03-11 22:31:41.914
+!MESSAGE Unable to access file "plugins/org.eclipse.jst.jsf.doc.user_1.3.0.v201211081916.jar!META-INF/MANIFEST.MF".
+!SESSION 2014-10-28 02:08:50.083 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/abhishek/Dropbox/Projects-extras -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.zeroturnaround.eclipse 4 0 2014-10-28 02:09:17.611
+!MESSAGE Got Exception: null
+
+!ENTRY org.zeroturnaround.eclipse 4 0 2014-10-28 02:09:18.603
+!MESSAGE Got Exception: null

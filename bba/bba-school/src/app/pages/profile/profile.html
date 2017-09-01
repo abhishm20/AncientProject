@@ -1,0 +1,134 @@
+<div class="widgets">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div ba-panel ba-panel-title="Profile Setup" ba-panel-class="with-scroll">
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Business Name</label>
+                            <input type="text" class="form-control" style="text-transform: capitalize;"  readonly="true" disabled  ng-model="client.name" placeholder="Business Name">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Billing Name</label>
+                            <input type="text" class="form-control" style="text-transform: capitalize;" readonly="true" disabled  ng-model="client.billingName" placeholder="Billing Name">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Business Nature</label>
+                            <input type="text" class="form-control" style="text-transform: capitalize;" readonly="true" disabled  ng-model="client.businessNature" placeholder="Business Nature">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Credit Limit</label>
+                            <input type="text" class="form-control"  readonly="true" disabled  ng-model="client._account.limit" placeholder="Credit Limit">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Payment Cycle</label>
+                            <select class="form-control selectpicker" selectpicker required title="Select" readonly="true" disabled
+                                    ng-model="client.paymentCycle"
+                                    ng-options="bn.value as bn.name for bn in paymentCycles">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Preferred Payment Mode</label>
+                            <select class="form-control selectpicker" selectpicker required title="Select" readonly="true" disabled
+                                    ng-model="client.paymentMode"
+                                    ng-options="bn.value as bn.name for bn in paymentModes">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>DayBox Representative</label>
+                            <input type="text" class="form-control" style="text-transform: capitalize;" readonly="true" disabled  ng-model="client.dbRepresentative" placeholder="DayBox Representative">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Emails</label>
+                            <input type="text" class="form-control" readonly="true" disabled ng-model="client.emails" placeholder="Add Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12"><hr></div>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" class="form-control" style="text-transform: capitalize;" readonly="true" disabled  ng-model="manager.name" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Your Mobile</label>
+                            <input type="text" class="form-control" readonly="true" disabled  ng-model="manager.mobile" placeholder="Your Mobile">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Your Email</label>
+                            <input type="text" class="form-control" readonly="true" disabled  ng-model="manager.email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label></label>
+                            <button type="button" ng-click="changePassword()" class="form-control btn btn-default btn-xs">Change Password</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12"><hr></div>
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <span class="list-group-item active">
+                            Managers
+                            <button ng-click="addManager()" type="button" class="btn btn-default btn-xs pull-right">Add</button>
+                        </span>
+                        <span style="text-transform: capitalize;" ng-repeat="manager in client.managers" class="list-group-item">
+                            {{manager.name}}
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <span class="list-group-item active">
+                            Outlets
+                            <button ng-click="addOutlet()" type="button" class="btn btn-default btn-xs pull-right">Add</button>
+                        </span>
+                        <span style="text-transform: capitalize;" ng-repeat="outlet in client.outlets" class="list-group-item">
+                            <a href="" type="button" ng-click="updateOutlet(outlet)">{{outlet.name}}</a>
+                            <span  ng-show="outlet.purchasers.length" class="pull-right label label-default">
+                                {{outlet.purchasers.length}} Purchaser
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="list-group">
+                        <span class="list-group-item active">
+                            Purchasers
+                            <button ng-click="addPurchaser()" type="button" class="btn btn-default btn-xs pull-right">Add</button>
+                        </span>
+                        <span style="text-transform: capitalize;" ng-repeat="purchaser in client.purchasers" class="list-group-item">
+                            <a href="" type="button" ng-click="updatePurchaser(purchaser)">{{purchaser.name}}</a>
+                            <button type="button"  ng-click="assignOutlet(purchaser)" class="pull-right btn label label-primary">
+                                {{purchaser.outletIds.length}} Outlet
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+<div class="widgets">
+
+    <div ba-panel ba-panel-title="Admins" ba-panel-class="with-scroll">
+
+        <div class="row ">
+            <div class="col-md-2">
+                <button type="button" ng-click="makePaymentRequest()" class="btn btn-primary btn-sm">Report NEFT/ IMPS</button>
+            </div>
+            <div class="col-md-2 well well-sm">
+                Balance: <strong><i class="fa fa-inr" aria-hidden="true"></i> {{account.balance | currency:""}}</strong>
+            </div>
+            <div class="col-md-3 well well-sm">
+                Credit Limit: <strong><i class="fa fa-inr" aria-hidden="true"></i> {{account.limit | currency:""}}</strong>
+            </div>
+            <div class="col-md-3 well  well-sm">
+                Last Update: <strong>{{account.updatedAt | amDateFormat:"hh:mm a, DD MMM YY"}}</strong>
+            </div>
+            <div class="col-md-2">
+                <button type="button" ng-click="export()" class=" pull-right btn btn-info btn-sm">Export To Excel</button>
+            </div>
+        </div>
+        <hr style="margin-top: 0px;margin-bottom: 0px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default" style="border: 1px solid #F0F3F4; border-radius:5px">
+                    <table ng-table="account.transactions" class="table">
+                        <tr ng-repeat="t in $data">
+                            <td title="'#'">
+                                {{$index +1}}
+                            </td>
+                            <td title="'Date'" sortable="'createdAt'">
+                                {{t.createdAt | amDateFormat:"DD MMM YYYY"}}
+                            </td>
+                            <td style="text-transform: capitalize" title="'Title'" sortable="'title'">
+                                {{t.title}}
+                            </td>
+                            <td style="text-transform: capitalize" title="'Manager'" sortable="'managerName'">
+                                {{t.managerName ? t.managerName : (t.purchaserName? t.purchaserName:"DayBox")}}
+                            </td>
+                            <td style="text-transform: capitalize" title="'Outlet'" sortable="'outletName'">
+                                {{t.outletName ? t.outletName : "-"}}
+                            </td>
+                            <td title="'Amount'" sortable="'amount'">
+                                <span ng-show="t.type=='credit'" style="color: #209e91;"><i class="fa fa-inr"></i> + {{t.amount | currency:""}}</span>
+                                <span ng-show="t.type=='debit'" style="color: #e85656;"> <i class="fa fa-inr"></i> - {{t.amount | currency:""}}</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

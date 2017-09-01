@@ -1,0 +1,594 @@
+2014-10-30 19:52:54.636 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-10-30 19:52:54.986 [Worker-0] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-10-30 19:52:56.335 [Worker-0] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-10-30 19:52:57.939 [Worker-0] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:34771/jrebel/notifications
+2014-10-30 19:52:58.019 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-30 19:52:58.178 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-10-30 19:52:58.190 [Worker-0] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@62402bb2
+2014-10-30 19:53:01.878 [Worker-0] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@62402bb2 stopped with exit code 2
+2014-10-30 19:53:01.939 [Worker-0] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-30 19:53:01.949 [Worker-0] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-30 19:53:01.953 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-10-30 19:53:01.955 [Thread-22] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@1d2b6e39
+2014-10-30 19:53:02.723 [Thread-22] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@1d2b6e39 stopped with exit code 2
+2014-10-30 19:53:02.741 [Thread-22] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-30 20:24:51.571 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 20:24:51.571 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 20:24:52.344 [Worker-22] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 20:24:52.347 [Worker-22] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 20:31:00.313 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 20:31:00.318 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 20:31:04.442 [Worker-27] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 20:31:04.442 [Worker-27] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 21:42:27.673 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 21:42:27.715 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 21:42:27.755 [Worker-48] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 21:42:27.755 [Worker-48] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 22:35:06.899 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 22:35:06.899 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 22:35:11.130 [Worker-69] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 22:35:11.131 [Worker-69] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 22:46:23.609 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 22:46:23.638 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 22:46:25.603 [Worker-57] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 22:46:25.604 [Worker-57] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 23:00:10.549 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-30 23:00:10.552 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-30 23:00:13.828 [Worker-77] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-30 23:00:13.831 [Worker-77] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 00:22:58.774 [JRebel License Expiration Notification Checker] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-10-31 00:22:58.778 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-10-31 00:22:58.806 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@f208525
+2014-10-31 00:23:02.873 [JRebel License Expiration Notification Checker] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@f208525 stopped with exit code 2
+2014-10-31 00:23:03.106 [JRebel License Expiration Notification Checker] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-10-31 01:35:40.267 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-31 01:35:40.268 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 01:35:44.194 [Worker-139] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-31 01:35:44.194 [Worker-139] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 01:44:32.448 [Worker-147] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:44:32.448 [Worker-147] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:45:19.479 [Worker-146] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:45:19.479 [Worker-146] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:45:46.896 [Worker-148] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:45:46.896 [Worker-148] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:46:02.270 [Worker-145] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:46:02.270 [Worker-145] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:48:00.990 [Worker-146] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:48:00.990 [Worker-146] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:49:52.409 [Worker-150] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:49:52.409 [Worker-150] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:50:43.986 [Worker-150] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:50:43.986 [Worker-150] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 01:51:06.486 [Worker-151] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 01:51:06.487 [Worker-151] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:01:22.642 [Worker-157] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:01:22.642 [Worker-157] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:01:30.975 [Worker-142] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:01:30.976 [Worker-142] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:02:51.644 [Worker-157] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:02:51.645 [Worker-157] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:03:26.510 [Worker-155] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:03:26.511 [Worker-155] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:14:44.879 [Worker-162] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:14:44.880 [Worker-162] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:36:57.602 [Worker-170] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:36:57.603 [Worker-170] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:38:03.959 [Worker-174] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:38:03.959 [Worker-174] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:38:19.003 [Worker-176] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:38:19.004 [Worker-176] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:38:32.554 [Worker-173] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try (waiting for build...)
+2014-10-31 02:38:32.554 [Worker-173] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.debug.uilaunching_config_handle=<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Try"/>
+
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:38:32.580 [Worker-173] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:38:32.584 [Worker-173] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:38:49.740 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:38:49.740 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:44:29.330 [Worker-174] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:44:29.330 [Worker-174] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:45:09.248 [Worker-170] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:45:09.249 [Worker-170] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:45:36.238 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:45:36.238 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:46:01.798 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:46:01.799 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:47:53.641 [Worker-178] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:47:53.641 [Worker-178] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:48:59.685 [Worker-176] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:48:59.689 [Worker-176] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:49:49.521 [Worker-178] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:49:49.522 [Worker-178] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:50:12.112 [Worker-178] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:50:12.112 [Worker-178] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:51:31.626 [Worker-179] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:51:31.627 [Worker-179] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:52:13.543 [Worker-178] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:52:13.543 [Worker-178] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:52:39.878 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:52:39.879 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:53:02.150 [Worker-176] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:53:02.151 [Worker-176] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:53:32.256 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:53:32.256 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:53:58.118 [Worker-176] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:53:58.118 [Worker-176] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:54:15.623 [Worker-175] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:54:15.623 [Worker-175] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:55:31.356 [Worker-180] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:55:31.357 [Worker-180] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 02:56:02.244 [Worker-168] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Try
+2014-10-31 02:56:02.245 [Worker-168] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment/src/Try.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Try
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Canteen_Managment
+2014-10-31 03:06:08.316 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-31 03:06:08.316 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 03:06:11.388 [Worker-140] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-31 03:06:11.388 [Worker-140] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 03:14:30.085 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-31 03:14:30.085 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 03:14:32.845 [Worker-184] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-31 03:14:32.852 [Worker-184] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 03:28:04.331 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-10-31 03:28:04.337 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-10-31 03:28:04.364 [Worker-179] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-10-31 03:28:04.364 [Worker-179] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-11-06 18:21:06.841 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-06 18:21:07.125 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-06 18:21:07.442 [Worker-4] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-06 18:21:09.403 [Worker-4] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:46934/jrebel/notifications
+2014-11-06 18:21:09.426 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-06 18:21:09.470 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-06 18:21:09.507 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6a1b500
+2014-11-06 18:21:12.215 [Worker-4] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6a1b500 stopped with exit code 2
+2014-11-06 18:21:12.338 [Worker-4] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-06 18:21:12.440 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-06 18:21:12.442 [Thread-28] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-06 18:21:12.447 [Thread-28] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@6e49d393
+2014-11-06 18:21:13.537 [Thread-28] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@6e49d393 stopped with exit code 2
+2014-11-06 18:21:13.553 [Thread-28] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-06 18:27:53.239 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-11-06 18:27:53.239 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-11-06 18:27:55.032 [Worker-8] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-11-06 18:27:55.033 [Worker-8] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-11-11 12:42:46.502 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta false; location jrebel/
+2014-11-11 12:42:47.118 [Worker-4] DEBUG AgentProvider - setInitializationData. isBeta true; location jr6/jrebel/
+2014-11-11 12:42:47.736 [Worker-4] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-11-11 12:42:50.246 [Worker-4] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:38481/jrebel/notifications
+2014-11-11 12:42:50.448 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-11 12:42:50.866 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-11 12:42:50.870 [Worker-4] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@268ddfa8
+2014-11-11 12:43:00.612 [Worker-4] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@268ddfa8 stopped with exit code 2
+2014-11-11 12:43:00.794 [Worker-4] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-11 12:43:01.355 [Worker-4] DEBUG EclipseJRebelClientAdapter - Getting license via CLI
+2014-11-11 12:43:01.358 [Thread-30] DEBUG o.z.exec.ProcessExecutor - Executing [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=/home/abhishek/.jrebel/jrebel.properties, -Drebel.license_server.legacy=false, -cp, /opt/eclipse/../../home/abhishek/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/plugins/org.zeroturnaround.eclipse.embedder_5.6.2.RELEASE-201408260808/jrebel/jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, , ]...
+2014-11-11 12:43:01.377 [Thread-30] DEBUG o.z.exec.ProcessExecutor - Started java.lang.UNIXProcess@7a97c42d
+2014-11-11 12:43:02.322 [Thread-30] DEBUG o.z.exec.WaitForProcess - java.lang.UNIXProcess@7a97c42d stopped with exit code 2
+2014-11-11 12:43:02.337 [Thread-30] ERROR EclipseJRebelClientAdapter - Got Exception: null
+org.zeroturnaround.javarebel.Licensing$ExpiredLicenseException: null
+	at com.zeroturnaround.javarebel.SDKLicensingImpl.getCurrentLicense(JRebel:67) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.a(JRebel:87) ~[na:na]
+	at com.zeroturnaround.javarebel.CLILicensingAPIImpl.main(JRebel:42) ~[na:na]
+2014-11-11 12:43:36.127 [main] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for _index.jsp
+2014-11-11 12:43:36.128 [main] DEBUG RebelArgsFixingLaunchListener - 
+entry: client-id=org.eclipse.wst.server.ui.web
+entry: launchable-adapter-id=org.eclipse.jst.server.tomcat.web
+entry: module-artifact=org.eclipse.jst.jee.server:Canteen_Managment///index.jsp
+entry: module-artifact-class=org.eclipse.wst.server.core.util.WebResource
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Canteen_Managment]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[4]
+entry: server-id=Tomcat v7.0 Server at localhost
+2014-11-11 12:43:37.423 [Worker-4] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Tomcat v7.0 Server at localhost
+2014-11-11 12:43:37.423 [Worker-4] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.jdt.launching.CLASSPATH=[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry containerPath="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle" path="2" type="4"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/bootstrap.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/home/abhishek/tomcat/bin/tomcat-juli.jar" path="3" type="2"/>
+, <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runtimeClasspathEntry externalArchive="/usr/lib/jvm/java-8-oracle/lib/tools.jar" path="3" type="2"/>
+]
+entry: org.eclipse.jdt.launching.DEFAULT_CLASSPATH=false
+entry: org.eclipse.jdt.launching.JRE_CONTAINER=org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle
+entry: org.eclipse.jdt.launching.PROGRAM_ARGUMENTS=start
+entry: org.eclipse.jdt.launching.VM_ARGUMENTS=-Dcatalina.base="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0" -Dcatalina.home="/home/abhishek/tomcat" -Dwtp.deploy="/home/abhishek/Dropbox/Projects-extras/Canteen_Managment/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps" -Djava.endorsed.dirs="/home/abhishek/tomcat/endorsed"
+entry: server-id=Tomcat v7.0 Server at localhost

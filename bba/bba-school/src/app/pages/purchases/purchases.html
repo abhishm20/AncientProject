@@ -1,0 +1,31 @@
+<div class="widgets">
+
+    <div ba-panel ba-panel-title="Purchases at Outlets" ba-panel-class="with-scroll">
+        <uib-tabset>
+            <uib-tab ng-repeat="outlet in outlets track by $index" select="selectTab('{{outlet.id}}')" heading="{{outlet.name}}">
+                <table ng-table="outlet.purchases" class="table">
+                    <tr ng-repeat="purchase in $data">
+                        <td title="'#'">
+                            {{$index +1}}</td>
+                        <td title="'Date'" sortable="'createdAt'">
+                            {{purchase.createdAt | amDateFormat:"Do MMMM YYYY"}}</td>
+                        <td style="text-transform: capitalize" title="'Title'" sortable="'title'">
+                            {{purchase.title}}</td>
+                        <td title="'Amount'" sortable="'amount'">
+                            <span ng-show="purchase.type=='credit'" style="color: #209e91;"><i class="fa fa-inr"></i> + {{purchase.amount | currency:""}}</span>
+                            <span ng-show="purchase.type=='debit'" style="color: #e85656;"> <i class="fa fa-inr"></i> - {{purchase.amount | currency:""}}</span>
+                        </td>
+                        <td title="'Purchaser Name'" sortable="'amount'">
+                            {{purchase.purchaserName}}
+                        </td>
+                        <td title="'Invoice'">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" ng-click="checkInvoice(purchase)" ng-show="purchase.mergedLink" tabindex="-1" class="btn btn-info btn-xs">Check Invoice</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </uib-tab>
+        </div>
+    </div>
+</div>

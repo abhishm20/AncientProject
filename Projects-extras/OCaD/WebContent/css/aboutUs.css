@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.content{
+	height:450px;
+}
+.heading{
+	font-size: 30px;
+	margin:0 auto;
+	width:300px;height:100px;
+	padding-top:20px;
+	color: #909090;
+}
+
+.desc{
+	padding-left:80px;
+	font-size: 15px;
+	width:800px;
+}

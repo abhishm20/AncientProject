@@ -1,0 +1,2 @@
+database_url="jdbc:mysql://localhost:3306/online_exam","root","ainaa"
+database_driver="com.mysql.jdbc.Driver"
